@@ -10,10 +10,10 @@ for x in 0..<10 {
 
 
 
-var blue = UIColor.blueColor()
-var red = UIColor.redColor()
+var blue = UIColor.blue
+var red = UIColor.red
 
-var lbl = UILabel(frame: CGRectMake(0, 0, 100, 30))
+var lbl = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 30))
 lbl.text = "Ciao a tutti"
 lbl.textColor = blue
 
